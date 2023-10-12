@@ -90,7 +90,6 @@ form button:hover {
   transform: translate(8rem) rotatez(20deg);
   opacity: 0;
 }
-
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
