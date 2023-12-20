@@ -123,3 +123,11 @@ select {
   background: white;
   color: #ff6f47;
 }
+@media screen and(max-width: 480px) {
+  div {
+    background: #ff6f47;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+}
