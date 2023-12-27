@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: linear-gradient(120deg, #debc4e, #ce694d);
+  /* background-image: linear-gradient(120deg, #debc4e, #ce694d); */
+  background-color: #ce694d;
   color: white;
   font-family: "montserrat";
   min-height: 100vh;
@@ -118,13 +119,39 @@ select {
   padding: 1rem;
   pointer-events: none;
   transition: all 0.3s ease;
+  font-size: 20px;
 }
 .select:hover::after {
   background: white;
   color: #ff6f47;
 }
-@media screen and(max-width: 600px) {
-  div {
-    background: #ff6f47;
+@media screen and (max-width: 786px) {
+  form {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  form input {
+    width: 60%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  form button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  select {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .select::after {
+    font-size: 10px;
+  }
+  .complete-btn,
+  .trash-btn {
+    font-size: 10px;
+  }
+  .todo {
+    font-size: 20px;
+    padding-left: 4px;
   }
 }
