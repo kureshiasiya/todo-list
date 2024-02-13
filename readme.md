@@ -1,4 +1,4 @@
-Todo-List
+ListEase
 Check out my Todo List web application Simplify your task management with features like adding, completing, and deleting tasks. Experience a clean and responsive design for seamless task organization.
 
 # Screenshot![alt text](Screenshot-1.png)
