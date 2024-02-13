@@ -6,7 +6,7 @@ Check out my Todo List web application Simplify your task management with featur
 Checkout on netlify
 https://asiya-Todo-List.netlify.app.
 
-# things to improve
+#THINGS TO IMPROVE
 
 1.Provide contact information, such as email or social media handles, for users to reach out with questions or feedback.
 2.Outline any planned features or enhancements for future versions of your Todo List application.
